@@ -233,12 +233,6 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   gap: clamp(2rem, 5vw, 3.5rem);
 }
 
-/* offbeat offset: even cards ride a half-beat lower */
-@media (min-width: 40rem) {
-  .member:nth-child(even) { transform: translateY(2.25rem); }
-  .members { padding-bottom: 2.25rem; }
-}
-
 .member img,
 .member-placeholder {
   aspect-ratio: 1;
