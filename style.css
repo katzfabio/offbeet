@@ -203,6 +203,10 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   line-height: 1.7;
 }
 
+.about-photo {
+  border-radius: 12px;
+}
+
 .placeholder-photo {
   display: flex;
   align-items: center;
