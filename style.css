@@ -110,13 +110,13 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .hero {
   max-width: 56rem;
   margin: 0 auto;
-  padding: clamp(2.5rem, 7vh, 4.5rem) 1.5rem clamp(2rem, 5vh, 3.5rem);
+  padding: clamp(1.5rem, 4vh, 2.5rem) 1.5rem clamp(1.25rem, 3vh, 2rem);
   text-align: center;
 }
 
 .hero-logo {
   width: min(34rem, 88%);
-  margin: 0 auto 1.75rem;
+  margin: 0 auto 1.1rem;
 }
 
 .hero-tagline {
@@ -124,7 +124,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   color: var(--muted);
   font-weight: 400;
   max-width: 34em;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.25rem;
   letter-spacing: -0.01em;
 }
 
@@ -161,7 +161,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .section {
   max-width: 56rem;
   margin: 0 auto;
-  padding: clamp(2.5rem, 6vh, 4rem) 1.5rem;
+  padding: clamp(1.5rem, 3.5vh, 2.25rem) 1.5rem;
   border-top: 1px solid var(--hairline);
 }
 
@@ -170,7 +170,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.025em;
-  margin-bottom: clamp(1.5rem, 3.5vh, 2.25rem);
+  margin-bottom: clamp(0.9rem, 2vh, 1.25rem);
 }
 
 /* the offbeat tick: a small beet-colored dash sitting off the left edge */
@@ -194,7 +194,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .about-grid {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  gap: clamp(1.5rem, 4vw, 3rem);
+  gap: clamp(1.25rem, 3vw, 2rem);
   align-items: center;
 }
 
@@ -230,7 +230,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: clamp(1.5rem, 3.5vw, 2.5rem);
+  gap: clamp(1.1rem, 2.5vw, 1.6rem);
 }
 
 .member img,
@@ -249,7 +249,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 }
 
 .member h3 {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -278,7 +278,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .videos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .video {
@@ -299,7 +299,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .ticket-card {
   border: 1px solid var(--hairline);
   border-radius: 16px;
-  padding: clamp(1.5rem, 4vw, 2.5rem);
+  padding: clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .ticket-show {
@@ -310,7 +310,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .ticket-time {
   color: var(--muted);
   font-size: 0.9375rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .ticket-how h3 {
@@ -333,7 +333,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 
 .ticket-cta {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 1.15rem;
   background: var(--beet);
   color: #fff;
   font-weight: 600;
@@ -368,12 +368,12 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 .footer {
   border-top: 1px solid var(--hairline);
   text-align: center;
-  padding: 2.25rem 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem 1.75rem;
   color: var(--muted);
   font-size: 0.875rem;
 }
 
 .footer-beet {
   width: 2.6rem;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.75rem;
 }
