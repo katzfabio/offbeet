@@ -304,6 +304,12 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 
 .ticket-show {
   font-size: clamp(1.0625rem, 2vw, 1.25rem);
+  margin-bottom: 0.35rem;
+}
+
+.ticket-time {
+  color: var(--muted);
+  font-size: 0.9375rem;
   margin-bottom: 1.5rem;
 }
 

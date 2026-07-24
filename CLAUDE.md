@@ -43,6 +43,7 @@ Never add a payment processor.
 - Dan's headshot is a stock image Fabio found online — may be replaced.
   Rob's is a real photo of him.
 - All four bios are real (content from Fabio).
-- Next show: Friday, September 11, 2026 · Hummingbird Hall · $20.
+- Next show: Friday, September 11, 2026 · Hummingbird Hall · $20 ·
+  doors 6:30 PM, music 7–9 PM.
 - Social links: none yet; commented-out block ready in the Contact section.
 - Videos: three YouTube embeds carried over from the old Google Sites page.
