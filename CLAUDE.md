@@ -40,7 +40,8 @@ Never add a payment processor.
   Dan Sharon (bass), Rob Coplan (keyboards). Paul Migneault left the band.
 - `assets/band.jpg` (About section) is **AI-generated** (ChatGPT) — replace with a
   real group photo when the band takes one.
-- Dan's and Rob's headshots were stock images Fabio found online — may be replaced.
+- Dan's headshot is a stock image Fabio found online — may be replaced.
+  Rob's is a real photo of him.
 - All four bios are real (content from Fabio).
 - Next show: Friday, September 11, 2026 · Hummingbird Hall · $20.
 - Social links: none yet; commented-out block ready in the Contact section.
