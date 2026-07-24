@@ -38,12 +38,25 @@ Never add a payment processor.
 - Member photos: `members/<firstname>.jpg`, square, B&W.
 - `assets/offbeet01.png` is a local source file, gitignored.
 
+### Replacing the About group photo (`assets/band.jpg`)
+
+`.about-photo` has **no** `filter: grayscale(1)` — unlike the member photos,
+this one is not protected, so a colour photo would ship in colour. Steps:
+
+1. Convert to B&W and optimize:
+   `sips -m "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc" band.jpg`
+   then `sips -Z 1400 band.jpg` and re-encode at ~82 quality.
+2. Update `width`/`height` on the `<img class="about-photo">` in index.html —
+   they're hardcoded (currently 1400×1120) and a stale pair causes layout shift.
+3. Rewrite its `alt` text; the current one describes the AI-generated image.
+
 ## Current content status (July 2026)
 
 - Lineup: Jim Gamo (drums), Fabio Katz (guitar/mandolin/Chapman Stick),
   Dan Sharon (bass), Rob Coplan (keyboards). Paul Migneault left the band.
-- `assets/band.jpg` (About section) is **AI-generated** (ChatGPT) — replace with a
-  real group photo when the band takes one.
+- `assets/band.jpg` (About section) is **AI-generated** (ChatGPT) — the band was
+  shooting a real group photo at practice on July 24, 2026. Swap it in when
+  Fabio provides it, following "Replacing the About group photo" above.
 - Dan's headshot is a stock image Fabio found online, contrast-boosted by him.
   Treat it as final — Dan isn't supplying a better picture. Don't re-encode it
   (that would soften the added contrast); only swap it if Fabio says so.
