@@ -22,7 +22,11 @@ Never add a payment processor.
 
 ## Design rules
 
-- White background, generous whitespace, system font stack (Apple-style restraint).
+- White background, system font stack (Apple-style restraint).
+- Spacing is deliberately tighter than the original "generous whitespace" draft —
+  Fabio found that version too airy (July 2026). Keep breathing room, but don't
+  reintroduce the big clamps; the vertical rhythm now tops out around 4rem for
+  section padding.
 - Single accent color: beet crimson `--beet: #a91e4f` (sampled from the logo).
 - B&W photography only; member photos get `filter: grayscale(1)` as a safety net.
 - Keep grids strictly aligned — Fabio reads intentional offsets as bugs.
