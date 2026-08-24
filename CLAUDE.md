@@ -20,8 +20,16 @@ edit, commit, push. No local tooling needed.
 1. Hero banner — search `NEXT-SHOW`
 2. Tickets section — search `TICKETS-INFO`
 
-Tickets are sold by manual Interac e-transfer to offbeetottawa@gmail.com.
-Never add a payment processor.
+Tickets are sold by manual Interac e-transfer to offbeetottawa@gmail.com,
+in advance only — no cash at the door. Never add a payment processor.
+
+### Marking a show sold out
+
+`index.html` carries two commented-out `SOLD-OUT SWAP` blocks (hero + tickets),
+with the CSS already live. To flip: comment out the live block and uncomment the
+sold-out one, in **both** places. Fabio also removes the e-transfer address at
+the bank so late transfers bounce rather than being accepted — the sold-out copy
+says so, so the two steps go together. Reverse both when the next show goes up.
 
 ## Design rules
 

@@ -156,6 +156,16 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 
 .show-status { color: var(--muted); }
 
+/* Sold-out state (see the SOLD-OUT SWAP blocks in index.html). */
+.show-banner.sold-out { border-color: var(--beet); }
+.show-banner.sold-out .show-status {
+  color: var(--beet);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
 /* On phones the three spans each wrapped onto their own line, eating the
    whole first screen. Pack them into two rows: label + CTA, then the date. */
 @media (max-width: 40rem) {
@@ -361,6 +371,15 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 }
 
 .ticket-note strong { color: var(--beet); }
+
+.ticket-soldout h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--beet);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
 
 /* ---------- Contact ---------- */
 
