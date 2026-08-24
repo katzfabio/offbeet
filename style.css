@@ -330,6 +330,12 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   margin-bottom: 0.35rem;
 }
 
+.ticket-venue {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  margin-bottom: 0.15rem;
+}
+
 .ticket-time {
   color: var(--muted);
   font-size: 0.9375rem;

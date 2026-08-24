@@ -61,7 +61,7 @@ this one is not protected, so a colour photo would ship in colour. Steps:
   practice shoot (B&W, 1400×787) — final.
 - All four member headshots are real photos, B&W and square.
 - All four bios are real (content from Fabio).
-- Next show: Sunday, September 13, 2026 · Hummingbird Hall · $20 ·
-  doors 6:30 PM, music 7–9 PM.
+- Next show: Sunday, September 13, 2026 · Hummingbird Hall,
+  900 Greenbank Rd, Ottawa · $20 · doors 6:30 PM, music 7–9 PM.
 - Social links: none yet; commented-out block ready in the Contact section.
 - Videos: three YouTube embeds carried over from the old Google Sites page.
