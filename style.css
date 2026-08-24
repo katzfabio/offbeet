@@ -354,22 +354,6 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   margin-top: 1rem;
 }
 
-.ticket-cta {
-  display: inline-block;
-  margin-top: 1.15rem;
-  background: var(--beet);
-  color: #fff;
-  font-weight: 600;
-  font-size: 0.9375rem;
-  padding: 0.7rem 1.5rem;
-  border-radius: 99px;
-}
-
-.ticket-cta:hover {
-  background: var(--beet-dark);
-  text-decoration: none;
-}
-
 /* ---------- Contact ---------- */
 
 .contact-line {

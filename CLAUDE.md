@@ -47,22 +47,18 @@ this one is not protected, so a colour photo would ship in colour. Steps:
    `sips -m "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc" band.jpg`
    then `sips -Z 1400 band.jpg` and re-encode at ~82 quality.
 2. Update `width`/`height` on the `<img class="about-photo">` in index.html —
-   they're hardcoded (currently 1400×1120) and a stale pair causes layout shift.
-3. Rewrite its `alt` text; the current one describes the AI-generated image.
+   they're hardcoded (currently 1400×961) and a stale pair causes layout shift.
+3. Rewrite its `alt` text to match the new photo.
 
-## Current content status (July 2026)
+## Current content status (August 2026)
 
 - Lineup: Jim Gamo (drums), Fabio Katz (guitar/mandolin/Chapman Stick),
   Dan Sharon (bass), Rob Coplan (keyboards). Paul Migneault left the band.
-- `assets/band.jpg` (About section) is **AI-generated** (ChatGPT) — the band was
-  shooting a real group photo at practice on July 24, 2026. Swap it in when
-  Fabio provides it, following "Replacing the About group photo" above.
-- Dan's headshot is a stock image Fabio found online, contrast-boosted by him.
-  Treat it as final — Dan isn't supplying a better picture. Don't re-encode it
-  (that would soften the added contrast); only swap it if Fabio says so.
-  Rob's is a real photo of him.
+- `assets/band.jpg` (About section) is the real group photo from the July 2026
+  practice shoot (B&W, 1400×961) — final.
+- All four member headshots are real photos, B&W and square.
 - All four bios are real (content from Fabio).
-- Next show: Friday, September 11, 2026 · Hummingbird Hall · $20 ·
+- Next show: Sunday, September 13, 2026 · Hummingbird Hall · $20 ·
   doors 6:30 PM, music 7–9 PM.
 - Social links: none yet; commented-out block ready in the Contact section.
 - Videos: three YouTube embeds carried over from the old Google Sites page.
