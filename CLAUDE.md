@@ -59,8 +59,8 @@ it), built from two transparent PNGs so no grey/white JPG box shows on the page:
 - `assets/wordmark.png` — from `assets/Offbeet black font.jpg`, alpha taken from
   the luminance so the black letterforms keep their antialiasing.
 
-Sizes live on `.lockup-beet` / `.lockup-word` in style.css; the wordmark rides at
-roughly 45% of the mandolin's height. The old combined `assets/logo.png` is no
+Sizes live on `.lockup-beet` / `.lockup-word` in style.css; the mandolin stands
+about as tall as the wordmark, not towering over it (Fabio, August 2026). The old combined `assets/logo.png` is no
 longer referenced by the page (kept as a source file). Pixelmator source
 `Offbeet font.pxd` and the full-size `Offbeet font.jpg` are gitignored.
 
