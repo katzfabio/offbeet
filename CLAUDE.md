@@ -59,6 +59,17 @@ until August 2026); it rides above the heads so the letterforms don't disappear
 into the dark shirts. Its tail runs past Facebook's 640px mobile safe area
 (x 105-745) by design — nothing essential lives out there.
 
+### The Facebook event photo
+
+`social/make-facebook-event.py` builds `social/facebook-event.png`/`.jpg`
+(1920x1005) from the same three sources. It is a **separate image from the Page
+cover** — do not reuse the 851x315 one for an event. Facebook shows an event
+photo at 1.91:1 in the feed but crops it tighter on the event page itself, and
+a 2.7:1 page cover loses its sides (August 2026: one of the four members
+disappeared that way). So this layout is built on the centre line — mandolin +
+wordmark lockup on top, band beneath — and all four members stay in frame down
+to a square crop. Keep any edit inside that centred core.
+
 ### The header lockup
 
 The nav brand and hero banner share one `.lockup` (mandolin + wordmark beside
