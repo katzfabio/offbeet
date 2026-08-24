@@ -49,6 +49,16 @@ says so, so the two steps go together. Reverse both when the next show goes up.
 - Member photos: `members/<firstname>.jpg`, square, B&W.
 - `assets/offbeet01.png` is a local source file, gitignored.
 
+### The Facebook cover
+
+`social/make-facebook-cover.py` builds `social/facebook-cover.png`/`.jpg`
+(851x315) from `social/band-cutout.png`, `assets/beet-guitar.png`, and
+`assets/wordmark.png` — edit the script and re-run it rather than retouching the
+image. The wordmark sits behind the band in black (it was ghosted grey caps
+until August 2026); it rides above the heads so the letterforms don't disappear
+into the dark shirts. Its tail runs past Facebook's 640px mobile safe area
+(x 105-745) by design — nothing essential lives out there.
+
 ### The header lockup
 
 The nav brand and hero banner share one `.lockup` (mandolin + wordmark beside
