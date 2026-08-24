@@ -47,7 +47,7 @@ this one is not protected, so a colour photo would ship in colour. Steps:
    `sips -m "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc" band.jpg`
    then `sips -Z 1400 band.jpg` and re-encode at ~82 quality.
 2. Update `width`/`height` on the `<img class="about-photo">` in index.html —
-   they're hardcoded (currently 1400×961) and a stale pair causes layout shift.
+   they're hardcoded (currently 1400×787) and a stale pair causes layout shift.
 3. Rewrite its `alt` text to match the new photo.
 
 ## Current content status (August 2026)
@@ -55,7 +55,7 @@ this one is not protected, so a colour photo would ship in colour. Steps:
 - Lineup: Jim Gamo (drums), Fabio Katz (guitar/mandolin/Chapman Stick),
   Dan Sharon (bass), Rob Coplan (keyboards). Paul Migneault left the band.
 - `assets/band.jpg` (About section) is the real group photo from the July 2026
-  practice shoot (B&W, 1400×961) — final.
+  practice shoot (B&W, 1400×787) — final.
 - All four member headshots are real photos, B&W and square.
 - All four bios are real (content from Fabio).
 - Next show: Sunday, September 13, 2026 · Hummingbird Hall · $20 ·
