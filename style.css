@@ -59,10 +59,19 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--hairline);
 }
 
-.nav-brand img {
-  height: 1.75rem;
-  width: auto;
+/* The logo lockup: beet-bodied mandolin, wordmark to its right.
+   Sizes are set on the two images; the wordmark rides at ~45% of the
+   mandolin's height so the pairing matches the old logo's proportions. */
+.lockup {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
 }
+
+.lockup img { width: auto; }
+
+.nav-brand .lockup-beet { height: 2.1rem; }
+.nav-brand .lockup-word { height: 0.95rem; }
 
 .nav nav {
   display: flex;
@@ -91,7 +100,8 @@ a:hover { text-decoration: underline; }
 
 @media (max-width: 40rem) {
   .nav { padding: 0 0.75rem; }
-  .nav-brand img { height: 1.35rem; }
+  .nav-brand .lockup-beet { height: 1.7rem; }
+  .nav-brand .lockup-word { height: 0.78rem; }
   .nav nav {
     font-size: 0.8125rem;
     gap: 0.6rem;
@@ -115,9 +125,12 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 }
 
 .hero-logo {
-  width: min(27rem, 76%);
+  justify-content: center;
   margin: 0 auto 0.85rem;
 }
+
+.hero-logo .lockup-beet { height: clamp(6.5rem, 16vw, 10rem); }
+.hero-logo .lockup-word { height: clamp(2.9rem, 6.75vw, 4.05rem); }
 
 .hero-tagline {
   font-size: clamp(1rem, 2.4vw, 1.375rem);
@@ -171,7 +184,9 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 @media (max-width: 40rem) {
   /* Keep the hero short enough that the About text clears the fold. */
   .hero { padding-top: 0.75rem; padding-bottom: 0.9rem; }
-  .hero-logo { width: min(20rem, 66%); margin-bottom: 0.7rem; }
+  .hero-logo { margin-bottom: 0.7rem; }
+  .hero-logo .lockup-beet { height: 5.4rem; }
+  .hero-logo .lockup-word { height: 2.4rem; }
   .hero-tagline { margin-bottom: 0.85rem; }
 
   .show-banner {

@@ -49,6 +49,21 @@ says so, so the two steps go together. Reverse both when the next show goes up.
 - Member photos: `members/<firstname>.jpg`, square, B&W.
 - `assets/offbeet01.png` is a local source file, gitignored.
 
+### The header lockup
+
+The nav brand and hero banner share one `.lockup` (mandolin + wordmark beside
+it), built from two transparent PNGs so no grey/white JPG box shows on the page:
+
+- `assets/beet-guitar.png` — cut out of `assets/beetGuitar.jpg` (its background
+  is #ebebeb, not white; flood-filled from the border with a small tolerance).
+- `assets/wordmark.png` — from `assets/Offbeet black font.jpg`, alpha taken from
+  the luminance so the black letterforms keep their antialiasing.
+
+Sizes live on `.lockup-beet` / `.lockup-word` in style.css; the wordmark rides at
+roughly 45% of the mandolin's height. The old combined `assets/logo.png` is no
+longer referenced by the page (kept as a source file). Pixelmator source
+`Offbeet font.pxd` and the full-size `Offbeet font.jpg` are gitignored.
+
 ### Replacing the About group photo (`assets/band.jpg`)
 
 `.about-photo` has **no** `filter: grayscale(1)` — unlike the member photos,
