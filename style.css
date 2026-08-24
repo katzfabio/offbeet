@@ -360,6 +360,8 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
   margin-top: 1rem;
 }
 
+.ticket-note strong { color: var(--beet); }
+
 /* ---------- Contact ---------- */
 
 .contact-line {
