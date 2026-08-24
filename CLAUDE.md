@@ -3,7 +3,10 @@
 Single-page static site for Offbeet, an instrumental quartet in Ottawa.
 Plain HTML/CSS, **no JavaScript, no build step, no framework** — keep it that way.
 
-- Live: https://katzfabio.github.io/offbeet/ (GitHub Pages, auto-deploys from `main`, root)
+- Live: https://offbeet.ca (GitHub Pages, auto-deploys from `main`, root).
+  Custom domain via the `CNAME` file; DNS at CanSpace (apex A/AAAA to GitHub,
+  `www` CNAME to katzfabio.github.io). The old katzfabio.github.io/offbeet/
+  URL 301s to the apex.
 - Repo: github.com/katzfabio/offbeet
 - Deploys take ~30–60s after push; verify with `curl` against the live URL.
 
