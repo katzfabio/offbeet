@@ -1,6 +1,6 @@
 /* Offbeet — white, minimal, one beet-crimson accent.
    The band name is a beat pun, so a few things sit deliberately
-   off the grid (heading ticks, alternating member-card offsets). */
+   off the grid (alternating member-card offsets). */
 
 :root {
   --ink: #111114;
@@ -199,27 +199,10 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1.5rem); }
 }
 
 .section h2 {
-  position: relative;
   font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.025em;
   margin-bottom: clamp(0.9rem, 2vh, 1.25rem);
-}
-
-/* the offbeat tick: a small beet-colored dash sitting off the left edge */
-.tick {
-  position: absolute;
-  left: -1.1em;
-  top: 0.62em;
-  width: 0.6em;
-  height: 0.12em;
-  background: var(--beet);
-  border-radius: 2px;
-  transform: rotate(-8deg);
-}
-
-@media (max-width: 64rem) {
-  .tick { position: static; display: inline-block; margin-right: 0.5em; vertical-align: middle; }
 }
 
 /* ---------- About ---------- */
