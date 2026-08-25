@@ -1,0 +1,21 @@
+Facebook event description. Paste into the event's About/Details field.
+
+Written to reflow: no hard-wrapped lines (they break on mobile), no greeting
+or sign-off, no date block -- Facebook shows the date and venue itself. If the
+event is hosted from Fabio's own profile rather than a band page, change
+"Fabio Katz on guitar" back to "me on guitar". Keep this in sync with
+social/invite-email.txt.
+
+----------------------------------------------------------------------
+
+Offbeet is an instrumental quartet here in Ottawa: Jim Gamo on drums, Rob Coplan on keyboards, Dan Sharon on bass and sax, and Fabio Katz on guitar. We play originals alongside covers that wander through rock, jazz, classical, world music, and the occasional TV theme.
+
+Doors 6:30 PM · Music 7:00–9:00 PM
+$20 per person
+
+HOW TO GET TICKETS
+Send an Interac e-transfer of $20 per person to offbeetottawa@gmail.com, and put your name and the number of tickets in the message. Your name goes on the list at the door: nothing to print, no service fees, no ticketing website.
+
+Tickets are advance only — we can't take cash at the door, and once we're sold out that's it, so don't leave it too late.
+
+A few videos and everyone's bios are at https://offbeet.ca
