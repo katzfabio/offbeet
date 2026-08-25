@@ -49,6 +49,19 @@ says so, so the two steps go together. Reverse both when the next show goes up.
 - Member photos: `members/<firstname>.jpg`, square, B&W.
 - `assets/offbeet01.png` is a local source file, gitignored.
 
+### The show promo kit (`social/`)
+
+Text and images for promoting a show, all kept in sync by hand:
+
+- `invite-email.txt` — the invite. Written so **any member can send it**: the
+  band is named in the third person and only the sign-off changes.
+- `facebook-event-description.txt` — same content for an event's About field
+  (reflowing paragraphs, no date block, full https:// link).
+- `email-header.jpg` — 1200x628 copy of the event photo, embedded inline in
+  the email. Facts never live only in the image; clients block images.
+
+Show details change in these too, alongside the two spots in index.html.
+
 ### The Facebook cover
 
 `social/make-facebook-cover.py` builds `social/facebook-cover.png`/`.jpg`
