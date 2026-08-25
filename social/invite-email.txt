@@ -1,14 +1,23 @@
+Invite email -- shared by the whole band. Any member can send it as-is; the
+only line to change is the sign-off. Add a personal opener above "My band"
+if you like. Keep in sync with social/facebook-event-description.txt.
+Image: embed social/email-header.jpg inline after the first paragraph, and
+keep every fact (date, price, e-transfer address) in the text -- mail clients
+block images by default.
+
+----------------------------------------------------------------------
+
 Subject: Offbeet live — Sunday, September 13
 
 
 Hi everybody,
 
-My band Offbeet is playing a show next month, and I'd love for you to come.
+My band Offbeet is playing a show next month, and we'd love for you to come.
 
 We're an instrumental quartet here in Ottawa: Jim Gamo on drums, Rob Coplan
-on keyboards, Dan Sharon on bass and sax, and me on guitar. We play originals
-alongside covers that wander through rock, jazz, classical, world music, and
-the occasional TV theme.
+on keyboards, Dan Sharon on bass and sax, and Fabio Katz on guitar. We play
+originals alongside covers that wander through rock, jazz, classical, world
+music, and the occasional TV theme.
 
     Sunday, September 13
     Hummingbird Hall, 900 Greenbank Rd, Ottawa, ON K2J 4P6
@@ -27,4 +36,4 @@ If you'd like a preview, there are a few videos and everyone's bios at
 offbeet.ca.
 
 Hope to see you there,
-Fabio
+Fabio                                    <- the one line each sender changes
